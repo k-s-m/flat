@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*General Style*/
+
+html {width: 100%; margin: 0 auto;}
+
+body { 
+background-color: #ffffff;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+
+.layout {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+}
+
+div {display: block;}
+
+a {
+text-decoration: none;
+outline: none;
+color:#ffffff;
+}
+
+a:hover {
+text-decoration: none;
+outline: none;
+color:#cc6600;
+}
+
+/*header*/
+
+.header {
+    background-color: #47263d;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 85px; 
+    display: block;
+}
+.logo {
+    float: left;
+    padding-left:90px;
+    padding-top:15px;
+    width: 217px; 
+    height: 46px; 
+}
+.header .sign-up {
+    float: right;
+    margin-right:50px; 
+    margin-top:20px;
+}
+.sign-up {
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    background-color:#4fae96;
+    font-family: helvetica;
+    font-size:14px;
+    color: #ffffff;
+    height:45px;
+    width: 115px;
+    display: block;
+}
+ nav.menu {
+    color:  #ffffff;
+    font-family: helvetica;
+    font-size:14px;
+    text-transform: uppercase;
+    float: right;
+    margin: 35px;
+    display: block;
+}
+ nav.menu a {
+   margin-right: 35px;
+}
+
+/*Main Banner*/
+
+.main-banner {
+    background-color: #705568;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 510px; 
+    display: block;
+}
+
+.main-text {
+    color:#ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    width: 560px; /* */
+    padding: 115px 70px 70px 70px; /* */
+    float: left;
+    display: block;
+    text-align: center; /* */
+}
+
+h1 {
+font-size: 25px; 
+line-height:1.5; 
+margin-top: 0; /* Отступ сверху */
+margin-bottom: 55px; /* Отступ снизу */
+padding: 0 100px; /* */
+}
+.main-text p {
+font-size: 14px; /* */
+margin-bottom: 40px;
+padding: 0;
+}
+.download-now {
+background: #cc6600; /* Цвет фона */
+border: none; /* Параметры рамки */
+border-radius: 5px;
+color: #ffffff;
+font-size:20px;
+height:70px;
+width:260px;
+box-shadow: 0 7px 0 0 #874300;
+}
+.download-now:active {
+  position: relative;
+  top: 5px;
+  box-shadow: 0 2px 0 0 #874300;
+}
+.banner {
+width: 280px;
+float: left; 
+margin: 0;
+padding: 60px 0; 
+}
+
+/*CONTENT*/
+
+.content {
+    background-color: #4dae96;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    display:block;
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height:1.5
+}
+
+.column-top {  
+    margin: 0 250px 40px 250px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.overflow {overflow: hidden;}
+
+.column {
+    text-align: center;
+    margin: 0 5px 40px 5px;
+    
+}
+.column p, .column li {
+    float:left;
+}
+.column li {
+    width: 30%;
+    padding: 15px;
+}
+
+.icon {
+    display: block;
+    margin: 0 0 60px 0;
+}
+.content .download-now {
+background: #cc6600; /* Цвет фона */
+border: none; /* Параметры рамки */
+border-radius: 5px;
+color: #ffffff;
+font-size:20px;
+height:70px;
+width:260px;
+box-shadow: 0 7px 0 0 #874300;
+margin: 0 350px 60px 350px;
+}
+
+.download-now:active {
+  position: relative;
+  top: 5px;
+  box-shadow: 0 2px 0 0 #874300;
+}
+
+/*Presentation*/
+
+.presentation {
+    background-color: #9999cc;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    display:block;
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.title-pres,.description-pres,.video {
+    text-align: center;
+}
+.title-pres {
+    padding:70px 0 0 0;
+    font-size:20px;
+}
+.description-pres {
+    padding:20px 0 40px 0;
+    font-size:14px;
+}
+.pleer {
+    text-align: center;
+    padding: 0 0 90px 0;
+}
+
+/*Footer*/
+.social {
+    overflow: hidden;
+    text-align: center;
+}
+.social li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+.social li a {
+    background: url(../images/social.png) 0 0 no-repeat; 
+    width: 42px; 
+    height: 40px;
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.social li.social-1 a {
+    background-position: 0 0;
+}
+.social li.social-2 a {
+    background-position: -66px 0;
+}
+.social li.social-3 a {
+    background-position: -132px 0;
+}
+.social li.social-4 a {
+    background-position: -199px 0;
+}
+.social li.social-5 a {
+    background-position: -266px 0;
+}
+.social li.social-6 a {
+    background-position: -333px 0;
+}
+
+
+.copyright {
+    color:#333366;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center; 
+    padding:0 0 20px 0;
+}
+
+
+
+
+
+
+
